@@ -35,7 +35,61 @@
     padding-top: 20px;
 }
 
-.testStyle {
-    color: red; 
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+    .title {
+        font-size: 35px; 
+    }
+
+
+    .dynamic-text {
+        text-align: center; 
+        padding-top: 1px;
+    }
+    
 }
 
+
+@media only screen and (min-width: 540px) and (max-width: 559px){
+    .title {
+        font-size: 35px; 
+        padding-top: 5px;
+    }
+
+
+    .dynamic-text {
+        text-align: center; 
+        padding-top: 0px;
+    }
+    
+}
+
+@media only screen and (min-width: 800px) and (max-width: 920px){
+    .title {
+        font-size: 35px; 
+        padding-top: 5px;
+    }
+
+
+    .dynamic-text {
+        text-align: center; 
+        padding-top: 0px;
+    }
+
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 420px){
+    .title {
+        font-size: 25px; 
+        padding-top: 5px;
+    }
+
+
+    .dynamic-text {
+        text-align: center; 
+        padding-top: 0px;
+        font-size: 13px;
+    }
+}
