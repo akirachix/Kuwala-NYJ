@@ -1,0 +1,116 @@
+.video-button {
+    background-color: #83a7e0;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 180px;
+   margin-left: 200px;
+
+
+    
+  }
+  
+  
+  .video-button:hover {
+    background-color: #75726f;
+  }
+
+  
+
+@media only screen and (min-width: 280px) and (max-width: 340px){
+  .video-button {
+    background-color: #83a7e0;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 180px;
+   margin-left: 22px;
+
+
+    
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 420px){
+  .video-button {
+    background-color: #83a7e0;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 170px;
+   margin-left: 18px;
+
+
+    
+  }
+
+}
+
+
+@media only screen and (min-width: 540px) and (max-width: 559px){
+  .video-button {
+    background-color: #83a7e0;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 170px;
+   margin-left: 18px;
+
+
+    
+  }
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px){
+
+  .video-button {
+    background-color: #83a7e0;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 17px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 195px;
+   margin-left: 20px;
+
+
+    
+  }
+  
+
+
+}

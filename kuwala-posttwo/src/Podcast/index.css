@@ -1,0 +1,41 @@
+.title{
+    color: #d87715;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dynamic-text{
+    color: black;
+    font-size: 20px;
+    font-size: 27px;
+}
+
+.box-text{
+    color: white;
+}
+
+.interactiveBox {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    background-color: #964B00;
+}
+
+.title {
+    font-size: 24px; 
+}
+
+.dynamic-text {
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.testStyle {
+    color: red; 
+}
+
