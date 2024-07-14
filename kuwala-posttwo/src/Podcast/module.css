@@ -1,79 +1,14 @@
-.interactiveBox {
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 5px;
-}
-.interactiveBox {
-    display: inline-flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: #333; 
-    color: white; 
-    padding: 30px; 
-    margin: 20px; 
-    border-radius: 10px; 
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); 
-    font-family: Arial, sans-serif;
-    font-size: 23px; 
-    width: 200px; 
-    height: 100px; 
-}
-
-
-.box-text {
-    margin-bottom: 10px; 
-}
 
 
 
-.interactiveBox {
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 5px;
-}
 
-.interactiveBox {
-    display: inline-flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: #333; 
-    color: white; 
-    padding: 30px; 
-    margin: 20px; 
-    border-radius: 10px; 
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); 
-    font-family: Arial, sans-serif;
-    font-size: 23px; 
-    width: 200px; 
-    height: 100px; 
-}
-
-.box-text {
-    margin-bottom: 10px; 
-}
-
-@media only screen and (max-width: 480px) {
-    .interactiveBox {
-        flex-wrap: wrap;
-        justify-content: center; 
-        align-items: center;
-        background-color: #333; 
-        color: white; 
-        padding: 30px; 
-        font-size: 18px; 
-        height: 50px; 
-        margin-left: 20px;
-        display: grid;
-    }
-}
 
 
 @media only screen and (min-width: 280px) and (max-width: 320px){
-
     .interactiveBox {
-        display: grid;
+        flex-direction: column;
         justify-content: center; 
-        align-items: center;
+        align-items: flex-end; 
         background-color: #333; 
         color: white; 
         padding: 20px; 
@@ -81,12 +16,9 @@
         border-radius: 10px; 
         font-size: 17px; 
         width: 150px; 
-        height: 80px; 
+        height: 125px; 
+        display: grid;
+        background-color: #964B00;
+
     }
-    
-
 }
-
-
-
-
